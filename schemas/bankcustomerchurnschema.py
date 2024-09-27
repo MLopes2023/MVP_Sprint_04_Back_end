@@ -26,17 +26,17 @@ class BankCustomerChurnViewBodySchema(BaseModel):
 class BankCustomerChurnAddBodySchema(BaseModel):
     """ Representação da forma de inserção de uma predição de rotatividade de cliente no banco.
     """
-    client_name: str = "Anita"
+    client_name: str = "ANITA"
     credit_score: int =  620 
-    country: str = "França"
+    country: str = "Alemanha"
     gender: str = "Feminino"
-    age: int = 40
-    tenure: int = 3
-    balance: float =  0.00 
+    age: int = 45
+    tenure: int = 1
+    balance: float =  99495.00 
     products_number: int = 1
     credit_card: int = 1
-    active_member: int = 1
-    estimated_salary: float = 101349.00
+    active_member: int = 0
+    estimated_salary: float = 40910.00
    
 class BankCustomerChurnBuscaSchema(BaseModel):
     """ Representação da estrutura para busca de uma lista de predições de rotatividades de clientes no banco.
