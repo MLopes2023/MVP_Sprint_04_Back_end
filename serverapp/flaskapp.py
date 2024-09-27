@@ -20,7 +20,7 @@ const_value_httpstatus_not_found    = HTTPStatus.NOT_FOUND
 # Apresentação documentação API
 ########################################################################################################
 
-info = Info(title="API do APP Bank Customer Churn Prediction", version="1.0.0")
+info = Info(title="API Bank Customer Churn Prediction", version="1.0.0")
 app = OpenAPI(__name__, info=info)
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True) 
 
