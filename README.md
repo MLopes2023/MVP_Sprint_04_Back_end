@@ -13,7 +13,7 @@ Fonte dos dados : (https://www.kaggle.com/datasets/gauravtopre/bank-customer-chu
 ---
 ### Execução em ambiente de Desenvolvimento 
 
-- Abrir pelo terminal na pasta da api da aplicação, onde se encontram os arquivo app.py e requirements.txt
+- Abrir pelo terminal a pasta da api da aplicação, onde se encontram os arquivo app.py e requirements.txt
 
 - Criar um ambiente virtual
 
