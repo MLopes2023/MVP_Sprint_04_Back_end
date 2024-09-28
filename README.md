@@ -13,7 +13,7 @@ Fonte dos dados : (https://www.kaggle.com/datasets/gauravtopre/bank-customer-chu
 ---
 ### Execução em ambiente de Desenvolvimento 
 
-- Abrir o terminal na pasta da api da aplicação, onde se encontram os arquivo app.py e requirements.txt
+- Abrir pelo terminal na pasta da api da aplicação, onde se encontram os arquivo app.py e requirements.txt
 
 - Criar um ambiente virtual
 
@@ -46,38 +46,6 @@ Fonte dos dados : (https://www.kaggle.com/datasets/gauravtopre/bank-customer-chu
    O serviço poderá ser acessado no browser no link http://127.0.0.1:5000/#/.
 
 ---
-
-### Executar através do Docker
-
-- É imprescindível ter o Docker instalado e iniciado em seu computador.
-
-- Após clonar o repositório, navegue para o diretório em que se encontram os arquivos Dockerfile e requirements.txt, executar como **administrador** os comandos abaixo, para construção da imagem Docker:  
-  
-  - Construir imagem  Docker:
-    
-    docker build -t back-end-churn .
-
-  - Criar uma rede Docker:
-  
-    docker network create minha_rede
-
-  - Executar o container
-    
-    docker run -d --name back-end-churn --network minha_rede -p 5000:5000 back-end-churn
-
-- No mesmo diretório executar como **administrador** o comando abaixo, para execução do container:  
-  
-  docker run -p 5000:5000 back-end-churn
-
-- API disponível e basta abrir o http://localhost:5000/#/ no navegador.
-
-- Caso haja a necessidade de **parar um conatiner**, basta executar os comandos: 
-
-  Efetuar o comando **docker container ls --all** (vai retornar containers existentes para localização do ID do container para ser utilizado no comando abaixo):
-
-  Efetuar o comando **docker stop CONTAINER_ID**, sendo CONTAINER_ID recuperado no comanddo anterior.
-
-  --- 
 
 ### Documentação para consumo da API Bank Customer Churn Prediction
 
