@@ -67,7 +67,7 @@ Fonte dos dados : (https://www.kaggle.com/datasets/gauravtopre/bank-customer-chu
 
 - No mesmo diretório executar como **administrador** o comando abaixo, para execução do container:  
   
-  docker run -p 5000:5000 back-end
+  docker run -p 5000:5000 back-end-churn
 
 - API disponível e basta abrir o http://localhost:5000/#/ no navegador.
 
